@@ -5,8 +5,8 @@ En esta práctica vamos buscar la configuración optima de una máquina virtual 
 Montaré la máquina virtual sobre WMware Player y, gracias a su interfaz, configuraré diversos aspectos como cantidad de RAM y número de procesadores para realizar una comparativa de configuraciones.
 Las especificaciones del equipo en el que se va a realizar la práctica son:
 
-     Procesador: Intel Core i7 4700MQ
-     RAM: 8GB
+  - Procesador: Intel Core i7 4700MQ
+  - RAM: 8GB
 
 
 Preparación de la máquina virtual.
