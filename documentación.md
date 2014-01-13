@@ -56,7 +56,7 @@ Configuracion 7) --> RAM: 2048 MB - Cores: 2
 Benchmarks
 ============
 
-Ya está todo preparado para proceder al analisis de los recursos de la máquina virtual. Para ello utilizaremos la herramienta ab (Apache Benchmark) que viene incluida en el paquete apache2-utils. Está nos proporcionará multitud de información, pero en este caso, nos interesa la velocidad de respuesta y de transferencia. Usaremos dos parámetros en ab, -n (número de peticiones o consultas) y -c (concurrencia o número de usuarios accediendo).
+Ya está todo preparado para proceder al analisis de los recursos de la máquina virtual. Para ello utilizaremos la herramienta ab (Apache Benchmark) que viene incluida en el paquete apache2-utils. Está nos proporcionará multitud de información, pero en este caso, nos interesa la velocidad de respuesta (por petición) y de transferencia. Usaremos dos parámetros en ab, -n (número de peticiones o consultas) y -c (concurrencia o número de usuarios accediendo).
 
 > ab -n 1000 -c 10 http://127.0.0.1/index.html
 
@@ -67,6 +67,11 @@ Una vez realizadas las pruebas, obtenemos las siguientes tablas con los resultad
 ![im2](https://dl.dropbox.com/s/cytc1gqdhij9la3/Captura%20de%20pantalla%20de%202014-01-13%2002%3A54%3A04.png)
 
 
+Conclusiones
+=============
+
+
+Como podemos observar, la configuración que mejor velocidad de transferencia y de respuesta proporciona es la 4, que está compuesta por dos cores y 1024 MB de RAM. De aquí podemos extraer que la RAM optima es 1 GB y que no son necesarios mas de dos cores para realizar el proceso, ya que los resultados serán similares o incluso peores. Esto puede deberse a que la concurrencia de los 4 cores ralentiza el proceso, ya que la sincronización de los 4 cores es más costosa. Tambien observamos que mas de 1 GB de RAM es innecesario, tenemos el ejemplo en la configuración 7, que posee 2 GB de RAM y da peores resultados que la 4.  
 
 
 
