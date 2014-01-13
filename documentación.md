@@ -32,11 +32,11 @@ Configuraciones de la máquina virtual.
 
 Voy a hacer las pruebas de rendimiento con una serie de configuraciones de la máquina virtual. Todas están realizadas en Ubuntu 12.04 64 bits. Estas configuraciones se detallan a continuación:
 
-Configuración 1) RAM: 512 MB   
-                 Cores: 1          
+Configuración 1 --> RAM: 512 MB - Cores: 1   
+                        
                   
-Configuracion 2) RAM: 1024 MB
-                 Cores: 1
+Configuracion 2) --> RAM: 1024 MB - Cores: 1
+                 
 
 Configuración 3) RAM: 512 MB       
                  Cores: 2                           
