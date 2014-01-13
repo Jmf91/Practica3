@@ -60,6 +60,8 @@ Ya está todo preparado para proceder al analisis de los recursos de la máquina
 
 > ab -n 1000 -c 10 http://127.0.0.1/index.html
 
+![im3](https://dl.dropbox.com/s/hrq56xabvj0zmcp/Ubuntu%2012.04%2064-bit%20-%20VMware%20Player%20%28Non-commercial%20use%20only%29_007.png)
+
 Esto quiere decir que vamos a realizar 1000 peticiones, con una concurrencia de 10 usuarios.
 
 Una vez realizadas las pruebas, obtenemos las siguientes tablas con los resultados. He realizado tres pruebas por cada configuración de las anteriormente mencionadas y, posteriormente, he realizado la media de las tres pruebas, con el objetivo de obtener unos resultados mas fiables.
