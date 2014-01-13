@@ -3,6 +3,11 @@ Práctica 3: Diseño de máquinas virtuales.
 
 En esta práctica vamos buscar la configuración optima de una máquina virtual que opera con Ubuntu 12.04 de 64 bits.
 Montaré la máquina virtual sobre WMware Player y, gracias a su interfaz, configuraré diversos aspectos como cantidad de RAM y número de procesadores para realizar una comparativa de configuraciones.
+Las especificaciones del equipo en el que se va a realizar la práctica son:
+
+     Procesador: Intel Core i7 4700MQ
+     RAM: 8GB
+
 
 Preparación de la máquina virtual.
 =====================================
@@ -21,5 +26,13 @@ La web está comprimida en un .zip que copiamos y descomprimimos en el directori
 Comprobamos que la web funciona adecuadamente escribiendo "localhost" en el navegador de la máquina virtual. Como podemos ver en la siguiente imagen, funciona correctamente.
 
 ![im1](https://dl.dropbox.com/s/m4c62x7ttwqg9wx/Captura%20de%20pantalla%20de%202014-01-13%2001%3A14%3A21.png)
+
+Configuraciones de la máquina virtual.
+=======================================
+
+Voy a hacer las pruebas de rendimiento con una serie de configuraciones de la máquina virtual. Todas están realizadas en Ubuntu 12.04 64 bits. Estas configuraciones se detallan a continuación:
+
+1º)  RAM: 512 MB
+     Cores: 1
 
 
